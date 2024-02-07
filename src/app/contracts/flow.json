@@ -1,0 +1,41 @@
+{
+	"contracts": {
+		"RewardsSystem": "RewardsSystem.cdc"
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testing": "127.0.0.1:3569",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"key": "f9b721eb20ce613cd43c1c790a29e531182a370a0d44bc97ef57afae5013df5e"
+		},
+		"test": {
+			"address": "fe62afac91a25d47",
+			"key": {
+				"type": "file",
+				"location": "test.pkey"
+			}
+		},
+		"test2": {
+			"address": "df568a9864e14d98",
+			"key": {
+				"type": "file",
+				"location": "test2.pkey"
+			}
+		}
+	},
+	"deployments": {
+		"testnet": {
+			"test": [
+				"RewardsSystem"
+			],
+			"test2": [
+				"RewardsSystem"
+			]
+		}
+	}
+}

@@ -1,5 +1,5 @@
 {
-  "name": "merit-mint",
+  "name": "diversion-2k24",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.7",
+    "@mui/x-charts": "^6.19.3",
+    "@onflow/fcl": "^1.9.0",
+    "@react-three/drei": "^9.97.0",
+    "@react-three/fiber": "^8.15.16",
+    "apexcharts": "^3.45.2",
+    "firebase": "^10.8.0",
+    "flowbite": "^2.2.1",
+    "framer-motion": "^11.0.3",
+    "next": "14.1.0",
     "react": "^18",
+    "react-data-table-component": "^7.6.2",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "react-icons": "^5.0.1",
+    "styled-components": "^6.1.8",
+    "three": "^0.161.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
     "postcss": "^8",
     "tailwindcss": "^3.3.0"
   }
